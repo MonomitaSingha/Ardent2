@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#nav{
+    background-color: chocolate; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 50px 0;
+}
+
+button{
+    background-color: blueviolet;
+    color: wheat;
+    padding: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: brown;
+    color: black;
+}
